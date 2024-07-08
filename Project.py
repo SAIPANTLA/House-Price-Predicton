@@ -7,7 +7,7 @@ import pickle
 
 model=pickle.load(open("lr.pkl","rb"))
 
-#Streamllit UI for user Input
+#Streamlit UI for user Input
 st.title("House Price Prediction")
 
 SquareFeet=st.number_input("Enter the size of the house",min_value=1000,max_value=2999,step=50)
