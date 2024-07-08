@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error,r2_score
 import pickle
 
-model=pickle.load(open("\lr.pkl","rb"))
+model=pickle.load(open("lr.pkl","rb"))
 
 #Streamllit UI for user Input
 st.title("House Price Prediction")
